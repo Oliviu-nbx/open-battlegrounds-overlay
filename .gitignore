@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+data/
+.DS_Store
+
+# Local build products and tool caches. Release files are attached to GitHub
+# Releases rather than committed to the source repository.
+dist/
+.work/
+.impeccable/
+build/
+*.egg-info/
+
+# Local environment and test output.
+.venv/
+.env
+.env.*
+.pytest_cache/
+.coverage

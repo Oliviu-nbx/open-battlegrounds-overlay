@@ -1,0 +1,2 @@
+# Optional image support; the tracker retains text fallbacks if absent.
+Pillow>=10.4

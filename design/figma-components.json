@@ -1,0 +1,88 @@
+{
+  "components": {
+    "minion": {
+      "id": "9:25",
+      "keys": {
+        "name": "Name#9:10",
+        "meta": "Details#9:11",
+        "attack": "Attack#9:12",
+        "health": "Health#9:13"
+      }
+    },
+    "metric": {
+      "id": "9:32",
+      "keys": {
+        "value": "Value#9:14",
+        "label": "Label#9:15"
+      }
+    },
+    "notice": {
+      "id": "9:35",
+      "keys": {
+        "title": "Title#9:16",
+        "detail": "Detail#9:17"
+      }
+    },
+    "heading": {
+      "id": "9:38",
+      "keys": {
+        "title": "Title#9:18",
+        "meta": "Metadata#9:19"
+      }
+    },
+    "button": {
+      "id": "9:533",
+      "keys": {
+        "label": "Label#9:20"
+      }
+    },
+    "match": {
+      "id": "9:541",
+      "keys": {
+        "date": "Date#9:21",
+        "hero": "Hero#9:22",
+        "placement": "Placement#9:23",
+        "round": "Round#9:24",
+        "source": "Source#9:25"
+      }
+    }
+  },
+  "createdNodeIds": [
+    "9:23",
+    "9:24",
+    "9:25",
+    "9:26",
+    "9:27",
+    "9:28",
+    "9:29",
+    "9:30",
+    "9:31",
+    "9:32",
+    "9:33",
+    "9:34",
+    "9:35",
+    "9:36",
+    "9:37",
+    "9:38",
+    "9:39",
+    "9:40",
+    "9:533",
+    "9:534",
+    "I9:534;4341:2510",
+    "9:540",
+    "9:541",
+    "9:542",
+    "9:543",
+    "9:544",
+    "9:545",
+    "9:546"
+  ],
+  "checks": {
+    "minion": "9:25",
+    "metric": "9:32",
+    "notice": "9:35",
+    "heading": "9:38",
+    "button": "9:533",
+    "match": "9:541"
+  }
+}

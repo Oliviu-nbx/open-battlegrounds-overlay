@@ -1,0 +1,32 @@
+name: Build macOS DMG
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build DMG
+        run: zsh native_macos/create_dmg.sh
+      - name: Upload macOS installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenBattlegroundsOverlay-macOS
+          path: dist/OpenBattlegroundsOverlay.dmg
+          if-no-files-found: error
+      - name: Attach DMG to the tagged release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$GITHUB_REF_NAME" dist/OpenBattlegroundsOverlay.dmg --clobber

@@ -1,0 +1,74 @@
+{
+  "boardId": "6:47",
+  "componentFrameId": "6:53",
+  "sections": {
+    "Introduction": "6:48",
+    "Live overlays": "6:49",
+    "Companion windows": "6:50",
+    "Connection states": "6:51",
+    "Design notes": "6:52"
+  },
+  "collectionId": "VariableCollectionId:6:4",
+  "modeIds": {
+    "Dark": "6:0"
+  },
+  "appleCollectionId": "VariableCollectionId:158c3760fc1910e82f0b41413d89c0fb0b20c306/4311:30",
+  "variables": {
+    "color/surface/canvas": "VariableID:6:16",
+    "color/surface/panel": "VariableID:6:17",
+    "color/surface/raised": "VariableID:6:18",
+    "color/text/secondary": "VariableID:6:19",
+    "color/text/accent": "VariableID:6:20",
+    "color/text/success": "VariableID:6:21",
+    "color/text/warning": "VariableID:6:22",
+    "color/text/danger": "VariableID:6:23",
+    "color/stroke/separator": "VariableID:6:24",
+    "color/surface/selected": "VariableID:6:25",
+    "color/surface/information": "VariableID:6:26",
+    "color/text/primary": "VariableID:6:27",
+    "color/surface/window": "VariableID:6:28",
+    "space/4": "VariableID:6:29",
+    "space/8": "VariableID:6:30",
+    "space/12": "VariableID:6:31",
+    "space/16": "VariableID:6:32",
+    "space/20": "VariableID:6:33",
+    "space/24": "VariableID:6:34",
+    "space/32": "VariableID:6:35",
+    "space/48": "VariableID:6:36",
+    "radius/6": "VariableID:6:37",
+    "radius/10": "VariableID:6:38",
+    "radius/16": "VariableID:6:39",
+    "radius/20": "VariableID:6:40"
+  },
+  "primitiveIds": [
+    "VariableID:6:5",
+    "VariableID:6:6",
+    "VariableID:6:7",
+    "VariableID:6:8",
+    "VariableID:6:9",
+    "VariableID:6:10",
+    "VariableID:6:11",
+    "VariableID:6:12",
+    "VariableID:6:13",
+    "VariableID:6:14",
+    "VariableID:6:15"
+  ],
+  "styles": {
+    "body": "S:cdf6c668bb853046d5c23d0f3674ea1e608e856e,1:713",
+    "caption": "S:b2a0deca1cf308c745fa23647cef170f1394e5bd,",
+    "label": "S:a84a3553f739e57b38bb0d86812c3bc2186ec13a,",
+    "heading": "S:5d58bc93fe36714c392d95773020eaa7a9ba2588,",
+    "title": "S:cc0fec6b66be1850367a02708f4a8eff45410aee,",
+    "display": "S:10c8d4fbba69fe3365d59a2ef6ecf527c1373fe9,",
+    "metric": "S:a96cd019f51358ecc9205247609eda98ff07dc6b,"
+  },
+  "createdNodeIds": [
+    "6:47",
+    "6:48",
+    "6:49",
+    "6:50",
+    "6:51",
+    "6:52",
+    "6:53"
+  ]
+}

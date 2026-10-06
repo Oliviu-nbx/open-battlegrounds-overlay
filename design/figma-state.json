@@ -1,0 +1,11 @@
+{
+  "fileKey": "GC2nEiDkpZNDis63XoSdU6",
+  "pageId": "0:1",
+  "scope": "Editable macOS design proposal; app runtime unchanged",
+  "acceptance": ["Recruit and combat overlays", "Compact overlay", "Match history window", "Preferences", "Waiting and access-error states", "Native controls, reusable components, semantic tokens", "Structural and rendered QA"],
+  "steps": [
+    {"name": "Foundations", "status": "created", "ledger": "figma-foundations.json", "reviewFrameId": "6:47", "componentFrameId": "6:53"},
+    {"name": "Reusable tracker components", "status": "created; rendered QA pending", "ledger": "figma-components.json"},
+    {"name": "Screens and visual QA", "status": "blocked", "reason": "Figma Starter MCP tool-call limit reached before screen composition. Browser editor is accessible but requires the user to review and accept Apple's SF Pro font license."}
+  ]
+}
